@@ -20,6 +20,10 @@ The aim of the approach is to mitigate the impact of imbalanced classes by creat
 6. The loop starts again.
 7. The final mean ROC AUC score is calculated by averaging the ROC AUC scores generated from all the iterations.
 
+![image](https://user-images.githubusercontent.com/62935664/236928329-e5be41ff-ec18-4cfc-8106-f09df035d46c.png)
+
+Using this technique, we got a score of 0.87 in Kaggle (note that binary classifiers will always have a worse score than probabilistic ones in ROC AUC)
+
 ## Usage
 
 The notebook contains detailed explanations and code to help you understand how to use the predictor to predict employee attrition based on the input data. Simply run the notebook and follow the instructions provided.
